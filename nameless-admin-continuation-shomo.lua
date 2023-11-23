@@ -60,7 +60,7 @@
  }
  
  -- [[ Version ]] -- 
- currentversion = 1.13
+ currentversion = 2.00
  
  --[[ VARIABLES ]]--
  PlaceId, JobId = game.PlaceId, game.JobId
@@ -14576,7 +14576,7 @@ end)
  });
  end)
  
- cmd.add({"httpspy"}, {"httspy", "HTTP Spy"}, function()
+ cmd.add({"httpspy"}, {"httpspy", "HTTP Spy"}, function() -- Typo fixed by Shehajeez
 	 loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/HttpSpy'))()
  end)
  
@@ -14610,8 +14610,7 @@ end)
 			end
 	 end
  end)
- 
- 
+
  -- [[ PLUGIN LOADER ]] -- 
  local PluginsLoaded = 0
  PluginsErrored = 0
