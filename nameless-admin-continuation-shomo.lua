@@ -21,9 +21,9 @@
  local Notify = Notification.Notify;
 
  Notify({
-		 Description = "Nameless Admin is now discontinued as i have decided to step away from exploiting since i only used it to learn scripting in a more 'fun' way. Thank you all for everything :^)";
-		 Title = "Goodbye!";
-		 Duration = 100;
+		 Description = "Nameless Admin is now being continued by the Shomo Team. We hope you like the upcoming updates coming to this script!";
+		 Title = "Continuation";
+		 Duration = 15;
 		 
 });
  
